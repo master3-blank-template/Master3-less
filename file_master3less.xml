@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="file" client="site" method="upgrade">
+    <name>Master3 less</name>
+    <version>1.0.0</version>
+    <creationDate>November 2019</creationDate>
+    <author>Aleksey A. Morozov</author>
+    <authorEmail>alekvolsk@yandex.ru</authorEmail>
+    <authorUrl>https://master3.alekvolsk.info/</authorUrl>
+    <copyright>Copyright (C) YOOtheme GmbH, Aleksey A. Morozov. All rights reserved.</copyright>
+    <license>GNU GPL v3 or later; see http://www.gnu.org/licenses/gpl-3.0.txt</license>
+    <description><![CDATA[Less pack for Master3 template]]></description>
+    
+    <fileset>
+		<files target="templates/master3">
+            <folder>less</folder>
+		</files>
+    </fileset>
+    
+</extension>
