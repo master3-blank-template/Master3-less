@@ -1,7 +1,5 @@
 # Less pack for master3 template
 
-_description in Russian [here](README.ru.md)_
-
 A package of basic less-files for compiling custom styles for the [Master3](https://github.com/master3-blank-template/Master3) template.
 
 **Does not contain a built-in compiler!**
