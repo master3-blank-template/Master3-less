@@ -5,7 +5,7 @@
  * All less variables of all UIkit components are collected here.
  * Set here the new values of the necessary variables to change 
  * the properties of the corresponding UIkit components.
- * ========================================================================= */
+============================================================================ */
 
 
 // Variables
@@ -27,7 +27,7 @@
 @global-font-size:                                16px;
 @global-line-height:                              1.5;      // 24px
 
-@global-xxlarge-font-size:                        2.625rem; // 42px
+@global-2xlarge-font-size:                        2.625rem; // 42px
 @global-xlarge-font-size:                         2rem;     // 32px
 @global-large-font-size:                          1.5rem;   // 24px
 @global-medium-font-size:                         1.25rem;  // 20px
@@ -76,7 +76,6 @@
 @global-control-large-height:                     55px;
 
 @global-z-index:                                  1000;
-
 
 // Inverse
 // ========================================================================
@@ -128,7 +127,7 @@
 @base-heading-color:                              @global-emphasis-color;
 @base-heading-text-transform:                     none;
 @base-heading-margin-top:                         @global-medium-margin;
-@base-h1-font-size-m:                             @global-xxlarge-font-size;
+@base-h1-font-size-m:                             @global-2xlarge-font-size;
 @base-h1-font-size:                               @base-h1-font-size-m * 0.85;
 @base-h1-line-height:                             1.2;
 @base-h2-font-size-m:                             @global-xlarge-font-size;
@@ -242,7 +241,7 @@
 
 @article-margin-top:                              @global-large-margin;
 
-@article-title-font-size-m:                       @global-xxlarge-font-size;
+@article-title-font-size-m:                       @global-2xlarge-font-size;
 @article-title-font-size:                         @article-title-font-size-m * 0.85;
 @article-title-line-height:                       1.2;
 
@@ -499,7 +498,7 @@
 // Countdown
 // ========================================================================
 
-@countdown-item-line-height:                      0.8;
+@countdown-number-line-height:                    0.8;
 @countdown-number-font-size:                      2rem; // 32px
 @countdown-number-font-size-s:                    4rem; // 64px
 @countdown-number-font-size-m:                    6rem; // 96px
@@ -931,7 +930,16 @@
 
 @list-margin-top:                                 @global-small-margin;
 
-@list-nested-padding-left:                        @global-gutter;
+@list-padding-left:                               30px;
+
+@list-muted-color:                                @global-muted-color;
+@list-emphasis-color:                             @global-emphasis-color;
+@list-primary-color:                              @global-primary-background;
+@list-secondary-color:                            @global-secondary-background;
+
+@list-bullet-width:                               (@global-line-height * 1em);
+@list-bullet-height:                              @list-bullet-width;
+@list-bullet-icon-color:                          @global-color;
 
 @list-divider-margin-top:                         @global-small-margin;
 @list-divider-border-width:                       @global-border-width;
@@ -941,11 +949,6 @@
 @list-striped-padding-horizontal:                 @global-small-margin;
 @list-striped-background:                         @global-muted-background;
 
-@list-bullet-width:                               (@global-line-height * 1em);
-@list-bullet-height:                              @list-bullet-width;
-@list-bullet-margin-right:                        @global-small-margin;
-@list-bullet-icon-color:                          @global-color;
-
 @list-large-margin-top:                           @global-margin;
 @list-large-divider-margin-top:                   @global-margin;
 @list-large-striped-padding-vertical:             @global-margin;
@@ -953,8 +956,14 @@
 
 @internal-list-bullet-image:                      "@{uikit-images}/backgrounds/list-bullet.svg";
 
+@inverse-list-muted-color:                        @inverse-global-muted-color;
+@inverse-list-emphasis-color:                     @inverse-global-emphasis-color;
+@inverse-list-primary-color:                      @inverse-global-primary-background;
+@inverse-list-secondary-color:                    @inverse-global-primary-background;
+
 @inverse-list-divider-border:                     @inverse-global-border;
 @inverse-list-striped-background:                 @inverse-global-muted-background;
+
 @inverse-list-bullet-icon-color:                  @inverse-global-color;
 
 
@@ -1292,7 +1301,7 @@
 @search-large-width:                              500px;
 @search-large-height:                             80px;
 @search-large-background:                         transparent;
-@search-large-font-size:                          @global-xxlarge-font-size;
+@search-large-font-size:                          @global-2xlarge-font-size;
 
 @search-large-icon-width:                         80px;
 
@@ -1646,5 +1655,5 @@
 @width-medium-width:                              300px;
 @width-large-width:                               450px;
 @width-xlarge-width:                              600px;
-@width-xxlarge-width:                             750px;
+@width-2xlarge-width:                             750px;
 

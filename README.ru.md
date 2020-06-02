@@ -1,5 +1,7 @@
 # Less pack for master3 template
 
+**Адаптирован для UiKit 3.5.3**
+
 Пакет базовых less-файлов для компилирования кастомных стилей для шаблона [Master3](https://github.com/master3-blank-template/Master3).
 
 **Не содержит встроенного компилятора!**
